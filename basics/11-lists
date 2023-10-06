@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la "$SPWD" .. /boot
+ls -la "pwd" .. /boot
