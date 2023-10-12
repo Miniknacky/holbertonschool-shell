@@ -1,2 +1,2 @@
 #!/bin/bash
-export NUM_DIRS_IN_PATH=$(IFS=:; set -f; set -- $PATH; echo $#)
+export NUM_DIRS_IN_PATH=$(IFS=:; set -- $PATH; echo $#)
