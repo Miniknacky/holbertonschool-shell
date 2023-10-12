@@ -1,2 +1,2 @@
 #!/bin/bash
-alias set_best='BEST="School"'
+BEST="School"
