@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Le nombre de répertoires dans le PATH est : $(echo $PATH | tr -cd ':' | wc -c)"
+echo $(echo $PATH | tr -cd ':' | wc -c)"
