@@ -1,2 +1,2 @@
 #!/bin/bash
-export NUM_DIRS_IN_PATH=$(IFS=:; set -- $PATH; echo $#)
+echo $PATH | tr -dc ':' | awk -F: '{print NF}'
