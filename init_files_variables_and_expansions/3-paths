@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr -dc ':' | awk -F: '{print NF}'
+echo "Le nombre de répertoires dans le PATH est : $(echo $PATH | tr -cd ':' | wc -c)"
