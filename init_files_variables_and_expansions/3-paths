@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH |tr ':' '\n' | wc -1
+export NUM_DIRS_IN_PATH=$(echo $PATH | tr ':' '\' | wc -1)
